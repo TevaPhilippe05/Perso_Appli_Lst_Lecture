@@ -14,7 +14,22 @@ public class App extends JFrame{
         super();
         this.name = name;
         this.window = new JFrame(this.name);
-        this.window.setSize(800, 800);
+
+        // Récupérer la taille de l'écran
+        Toolkit toolkit = Toolkit.getDefaultToolkit();
+        // Récupérer la taille de l'écran
+        Dimension screenSize = toolkit.getScreenSize();
+
+        // Définis des dims en fonctions de l'écran
+        int width = (int) (screenSize.width * 0.6);
+        int height = (int) (screenSize.height * 0.6);
+
+        // Met les dims de la fenêtre en fonction de la taille de l'écran
+        this.window.setSize(width, height);
+
+        //centrer la fenêtre a son ouverture
+        this.window.setLocationRelativeTo(null);
+
         this.window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         // Création de trois boutons
