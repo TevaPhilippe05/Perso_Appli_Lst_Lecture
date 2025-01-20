@@ -1,6 +1,6 @@
 # Perso_Appli_Lst_Lecture
 
-![Visuel de l'application attendu](assets/readme/screen%20visuel.jpg)
+![Visuel de l'application attendu](README_Assets/screen%20visuel.jpg)
 
 Il s'agit de d'implémenter une application java destinée à gérer des listes de lectures. L'objectif est de se rapprocher de la maquette ci-dessus.
 
