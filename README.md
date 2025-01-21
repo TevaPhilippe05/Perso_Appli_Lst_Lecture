@@ -10,6 +10,6 @@ Il s'agit de d'implémenter une application java destinée à gérer des listes 
 Clonez le répertoire et lancez le fichier Main.
 
 ## Crédits
-- PHILIPPE Teva
-- PLARD Antonin
-- GUYON Eddy
+- [PHILIPPE Teva](https://github.com/TevaPhilippe05)
+- [PLARD Antonin](https://github.com/Ezacuak)
+- [GUYON Eddy](https://github.com/synnfall)
